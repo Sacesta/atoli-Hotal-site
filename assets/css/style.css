@@ -4207,6 +4207,7 @@ Team Area
 
 .team-item a img {
   border-radius: 15px;
+  width: 100%;
 }
 
 .team-item .content {
