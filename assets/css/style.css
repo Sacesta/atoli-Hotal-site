@@ -5302,6 +5302,7 @@ Blog Area
   top: 30px;
   left: 30px;
   border-radius: 50%;
+  width: 50px;
 }
 
 .blog-article .comments-wrap ul li h3 {
@@ -5456,15 +5457,15 @@ Blog Area
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg1 {
-  background-image: url(../img/blog/blog-item-img1.jpg);
+  background-image: url(../img/blog/blog1_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg2 {
-  background-image: url(../img/blog/blog-item-img2.jpg);
+  background-image: url(../img/blog/blog2_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg3 {
-  background-image: url(../img/blog/blog-item-img3.jpg);
+  background-image: url(../img/blog/blog3_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .info {
