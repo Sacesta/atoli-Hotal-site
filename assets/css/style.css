@@ -3474,6 +3474,8 @@ Testimonials Area
   top: 0;
   border-radius: 50%;
   width: unset !important;
+  width: 50px;
+  height: 60px;
 }
 
 .testimonials-item ul li h3 {
@@ -3696,6 +3698,8 @@ Testimonials Area
   top: 0;
   border-radius: 50%;
   width: unset !important;
+  width: 50px;
+  height: 60px;
 }
 
 .testimonials-slider-content ul li h3 {
