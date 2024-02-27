@@ -556,6 +556,10 @@ Navbar Area
   padding: 10px 30px;
 }
 
+.nav-btn a{
+  color: black;
+}
+
 .nav-two {
   position: absolute;
   background-color: #ffffff;
