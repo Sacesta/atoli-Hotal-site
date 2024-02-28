@@ -1,5 +1,5 @@
 /*
-@File: Atoli HTML Template
+@File: PremierHTML Template
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -273,11 +273,13 @@ Top Header
 
 .header-right {
   text-align: right;
+  /* width: 100%; */
   z-index: 1;
   position: relative;
 }
 
 .header-right ul {
+  /* width: 100%; */
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
@@ -552,6 +554,10 @@ Navbar Area
 
 .nav-btn .default-btn {
   padding: 10px 30px;
+}
+
+.nav-btn a{
+  color: black;
 }
 
 .nav-two {
@@ -1244,7 +1250,7 @@ Main Banner Area
 }
 
 .banner-area-three {
-  background-image: url(../img/home-three.jpg);
+  background-image: url(../img/home/home-_three.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1513,51 +1519,51 @@ Inner Banner
 }
 
 .inner-bg1 {
-  background-image: url(../img/inner-banner/inner-banner1.jpg);
+  background-image: url(../img/about/banner-img.jpg);
 }
 
 .inner-bg2 {
-  background-image: url(../img/inner-banner/inner-banner2.jpg);
+  background-image: url(../img/about/banner-img.jpg);
 }
 
 .inner-bg3 {
-  background-image: url(../img/inner-banner/inner-banner3.jpg);
+  background-image: url(../img/about/banner5-img.jpg);
 }
 
 .inner-bg4 {
-  background-image: url(../img/inner-banner/inner-banner4.jpg);
+  background-image: url(../img/about/banner6-img.jpg);
 }
 
 .inner-bg5 {
-  background-image: url(../img/inner-banner/inner-banner5.jpg);
+  background-image: url(../img/about/banner4-img.jpg);
 }
 
 .inner-bg6 {
-  background-image: url(../img/inner-banner/inner-banner6.jpg);
+  background-image: url(../img/about/banner9-img.jpg);
 }
 
 .inner-bg7 {
-  background-image: url(../img/inner-banner/inner-banner7.jpg);
+  background-image: url(../img/about/banner5-img.jpg);
 }
 
 .inner-bg8 {
-  background-image: url(../img/inner-banner/inner-banner8.jpg);
+  background-image: url(../img/about/banner8-img.jpg);
 }
 
 .inner-bg9 {
-  background-image: url(../img/inner-banner/inner-banner9.jpg);
+  background-image: url(../img/about/banner9-img.jpg);
 }
 
 .inner-bg10 {
-  background-image: url(../img/inner-banner/inner-banner10.jpg);
+  background-image: url(../img/about/banner10-img.jpg);
 }
 
 .inner-bg11 {
-  background-image: url(../img/inner-banner/inner-banner11.jpg);
+  background-image: url(../img/about/banner11-img.jpg);
 }
 
 .inner-bg12 {
-  background-image: url(../img/inner-banner/inner-banner12.jpg);
+  background-image: url(../img/about/banner-12-img.jpg);
 }
 
 /*=================================
@@ -3472,6 +3478,8 @@ Testimonials Area
   top: 0;
   border-radius: 50%;
   width: unset !important;
+  width: 50px;
+  height: 60px;
 }
 
 .testimonials-item ul li h3 {
@@ -3694,6 +3702,8 @@ Testimonials Area
   top: 0;
   border-radius: 50%;
   width: unset !important;
+  width: 50px;
+  height: 60px;
 }
 
 .testimonials-slider-content ul li h3 {
@@ -4205,6 +4215,7 @@ Team Area
 
 .team-item a img {
   border-radius: 15px;
+  width: 100%;
 }
 
 .team-item .content {
@@ -5295,6 +5306,7 @@ Blog Area
   top: 30px;
   left: 30px;
   border-radius: 50%;
+  width: 50px;
 }
 
 .blog-article .comments-wrap ul li h3 {
@@ -5449,15 +5461,15 @@ Blog Area
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg1 {
-  background-image: url(../img/blog/blog-item-img1.jpg);
+  background-image: url(../img/blog/blog1_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg2 {
-  background-image: url(../img/blog/blog-item-img2.jpg);
+  background-image: url(../img/blog/blog2_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .thumb .full-image.bg3 {
-  background-image: url(../img/blog/blog-item-img3.jpg);
+  background-image: url(../img/blog/blog3_hotel.jpg);
 }
 
 .side-bar-widget .widget-popular-post .item .info {
